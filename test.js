@@ -1,0 +1,14 @@
+const assert = require("assert");
+
+function makeGreeting() {
+}
+
+assert.equal(makeGreeting(), "Hello world!");
+console.log("success");
+
+/*
+Notes: 
+1) Make a failing test
+2) Make it pass
+3) Make it better 
+*/
