@@ -3,10 +3,7 @@
 */
 "use strict";
 import assert from "assert";
-
-function makeGreeting(name = "world") {
-    return "Hello" + " " + name + "!";
-}
+import {makeGreeting} from "./index.mjs";
 
 assert.equal(makeGreeting(), "Hello world!");
 assert.equal(makeGreeting("Zach"), "Hello Zach!");
