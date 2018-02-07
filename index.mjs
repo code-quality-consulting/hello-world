@@ -1,7 +1,7 @@
 export function makeGreeting(name = "world", language) {
     if (language === "Spanish") {
-        name = "Mundo";
-        return "\u00A1Hola" + " " + name + "!";
+        const world = "Mundo";
+        return "\u00A1Hola" + " " + world + "!";
     }
     return "Hello" + " " + name + "!";
 }
