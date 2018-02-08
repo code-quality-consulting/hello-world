@@ -1,13 +1,16 @@
 /*jslint
     node
 */
-"use strict";
 import assert from "assert";
 import {makeGreeting} from "./index.mjs";
 
 assert.equal(makeGreeting(), "Hello world!");
 assert.equal(makeGreeting("Zach"), "Hello Zach!");
-assert.equal(makeGreeting("","Spanish"),"\u00A1Hola Mundo!");
+assert.equal(makeGreeting("", "Spanish"), "\u00A1Hola Mundo!");
+assert.equal(
+    makeGreeting("Andr\u00E9s", "Spanish"),
+    "\u00A1Hola Andr\u00E9s!"
+);
 console.log("success");
 
 /*
