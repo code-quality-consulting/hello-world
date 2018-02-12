@@ -9,7 +9,13 @@ export function makeGreeting(name = "world", language = "English") {
     return "Hello" + " " + name + "!";
 }
 
-export function makeGreeter() {
+export function makeGreeter(language) {
+    if (language === "Spanish") {
+        return function () {
+            return "\u00A1Hola" + " " + "Mundo" + "!";
+        };
+    }
+
     return function (name = "world") {
         return "Hello " + name + "!";
     };
