@@ -4,7 +4,8 @@
 import assert from "assert";
 import {makeGreeting} from "./index.mjs";
 
-assert.equal(makeGreeting(), "Hello world!");
+const makeEnglishGreeting = makeGreeter("English");
+assert.equal(makeEnglishGreeting(), "Hello world!");
 assert.equal(makeGreeting("Zach"), "Hello Zach!");
 assert.equal(makeGreeting("", "Spanish"), "\u00A1Hola Mundo!");
 assert.equal(
