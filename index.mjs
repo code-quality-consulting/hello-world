@@ -10,7 +10,7 @@ export function makeGreeting(name = "world", language = "English") {
 }
 
 export function makeGreeter() {
-    return function () {
-        return "Hello world!";
+    return function (name = "world") {
+        return "Hello " + name + "!";
     };
 }
