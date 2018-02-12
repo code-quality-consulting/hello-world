@@ -2,7 +2,7 @@
     node
 */
 import assert from "assert";
-import {makeGreeting} from "./index.mjs";
+import {makeGreeting, makeGreeter} from "./index.mjs";
 
 const makeEnglishGreeting = makeGreeter("English");
 assert.equal(makeEnglishGreeting(), "Hello world!");

@@ -8,3 +8,9 @@ export function makeGreeting(name = "world", language = "English") {
     }
     return "Hello" + " " + name + "!";
 }
+
+export function makeGreeter() {
+    return function () {
+        return "Hello world!";
+    };
+}
