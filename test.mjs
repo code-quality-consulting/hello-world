@@ -2,7 +2,7 @@
     node
 */
 import assert from "assert";
-import {makeGreeting, makeGreeter} from "./index.mjs";
+import {makeGreeter} from "./index.mjs";
 
 const makeEnglishGreeting = makeGreeter("English");
 const makeSpanishGreeting = makeGreeter("Spanish");
@@ -15,13 +15,6 @@ assert.equal(
     "\u00A1Hola Andr\u00E9s!"
 );
 
-assert.equal(makeGreeting("Zach"), "Hello Zach!");
-assert.equal(makeGreeting("", "Spanish"), "\u00A1Hola Mundo!");
-
-assert.equal(
-    makeGreeting("Andr\u00E9s", "Spanish"),
-    "\u00A1Hola Andr\u00E9s!"
-);
 console.log("success");
 
 /*
