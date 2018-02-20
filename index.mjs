@@ -1,13 +1,7 @@
-const dictionary = [
-    {
-        language: "English",
-        world: "world"
-    },
-    {
-        language: "Russian",
-        world: "\u043c\u0438\u0440" // UTF-8
-    }
-];
+const worldInDifferentLanguages = {
+    "English": "world",
+    "Russian": "\u043c\u0438\u0440" // мир
+};
 
 export function makeGreeter(language) {
     if (language === "Spanish") {
@@ -16,7 +10,7 @@ export function makeGreeter(language) {
         };
     }
     if (language === "Russian") {
-        return function (name = dictionary[1].world) {
+        return function (name = worldInDifferentLanguages.Russian) {
             return "\u041F\u0440\u0438\u0432\u0435\u0442\u0020"
                     + name + "!";
         };
