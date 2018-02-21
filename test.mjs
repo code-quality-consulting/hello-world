@@ -6,6 +6,7 @@ import {makeGreeter} from "./index.mjs";
 
 const makeEnglishGreeting = makeGreeter("English");
 const makeSpanishGreeting = makeGreeter("Spanish");
+const makeRussianGreeting = makeGreeter("Russian");
 
 assert.equal(makeEnglishGreeting(), "Hello world!");
 assert.equal(makeEnglishGreeting("Zach"), "Hello Zach!");
@@ -14,6 +15,8 @@ assert.equal(
     makeSpanishGreeting("Andr\u00E9s"),
     "\u00A1Hola Andr\u00E9s!"
 );
+assert.equal(makeRussianGreeting(), "Привет мир!");
+
 
 console.log("success");
 
