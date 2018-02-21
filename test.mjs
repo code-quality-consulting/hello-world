@@ -7,7 +7,8 @@ import {makeGreeter} from "./index.mjs";
 const greet = {
     "english": makeGreeter("English"),
     "spanish": makeGreeter("Spanish"),
-    "russian": makeGreeter("Russian")
+    "russian": makeGreeter("Russian"),
+    "greek": makeGreeter("Greek")
 };
 
 assert.equal(greet.english(), "Hello world!");
@@ -18,6 +19,7 @@ assert.equal(
     "\u00A1Hola Andr\u00E9s!"
 );
 assert.equal(greet.russian(), "Привет мир!");
+assert.equal(greet.greek(), "γειά σου κόσμος!");
 
 
 console.log("success");
