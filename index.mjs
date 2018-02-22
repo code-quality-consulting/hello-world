@@ -1,13 +1,15 @@
 const worldInDifferentLanguages = {
     "English": "world",
     "Russian": "\u043c\u0438\u0440", // мир
-    "Spanish": "Mundo"
+    "Spanish": "Mundo",
+    "Greek": "κόσμος"
 };
 
 const helloInDifferentLanguages = {
     "English": "Hello",
     "Russian": "\u041F\u0440\u0438\u0432\u0435\u0442", //Привет
-    "Spanish": "\u00A1Hola" //¡Hola
+    "Spanish": "\u00A1Hola", //¡Hola
+    "Greek": "γειά σου"
 };
 
 export function makeGreeter(language) {
