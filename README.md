@@ -5,3 +5,4 @@
 * Communicates "Hello" and the name of the user to the user.
 * Communicates "Hola Mundo!" to a Spanish-speaking user.
 * Communicates "Привет мир!" to a Russian-speaking user.
+* Communicates "Bonjour monde!" to a French-speaking user.
