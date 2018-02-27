@@ -9,7 +9,7 @@ const greet = {
     "spanish": makeGreeter("Spanish"),
     "russian": makeGreeter("Russian"),
     "greek": makeGreeter("Greek"),
-    "dutch: makeGreeter("Dutch")
+    "dutch": makeGreeter("Dutch")
 };
 
 assert.equal(greet.english(), "Hello world!");
