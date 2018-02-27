@@ -3,6 +3,7 @@ const worldInDifferentLanguages = {
     "Russian": "мир",
     "Spanish": "Mundo",
     "Greek": "κόσμος",
+    "French": "monde",
     "German": "Welt",
     "Dutch": "wereld"
 };
@@ -12,6 +13,7 @@ const helloInDifferentLanguages = {
     "Russian": "Привет",
     "Spanish": "¡Hola",
     "Greek": "γειά σον",
+    "French": "Bonjour",
     "German": "Hallo",
     "Dutch": "Hallo"
 };
