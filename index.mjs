@@ -5,7 +5,8 @@ const worldInDifferentLanguages = {
     "Greek": "κόσμος",
     "French": "monde",
     "German": "Welt",
-    "Dutch": "wereld"
+    "Dutch": "wereld",
+    "Korean": "세계"
 };
 
 const helloInDifferentLanguages = {
@@ -15,7 +16,8 @@ const helloInDifferentLanguages = {
     "Greek": "γειά σον",
     "French": "Bonjour",
     "German": "Hallo",
-    "Dutch": "Hallo"
+    "Dutch": "Hallo",
+    "Korean": "여보세요"
 };
 
 export function makeGreeter(language) {
