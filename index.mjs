@@ -5,8 +5,9 @@ const worldInDifferentLanguages = {
     "Greek": "κόσμος",
     "French": "monde",
     "German": "Welt",
+    "Dutch": "wereld",
     "Japanese": "世界",
-    "Dutch": "wereld"
+    "Chinese": "世界"
 };
 
 const helloInDifferentLanguages = {
@@ -16,12 +17,16 @@ const helloInDifferentLanguages = {
     "Greek": "γειά σον",
     "French": "Bonjour",
     "German": "Hallo",
+    "Dutch": "Hallo",
     "Japanese": "こんにちは",
-    "Dutch": "Hallo"
+    "Chinese": "你好"
 };
 
 export function makeGreeter(language) {
     return function (name = worldInDifferentLanguages[language]) {
+        if (language === "Chinese") {
+            return helloInDifferentLanguages[language] + name;
+        }
         return helloInDifferentLanguages[language] + " " + name + "!";
     };
 }
