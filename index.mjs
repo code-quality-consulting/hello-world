@@ -6,6 +6,7 @@ const worldInDifferentLanguages = {
     "French": "monde",
     "German": "Welt",
     "Dutch": "wereld",
+    "Japanese": "世界",
     "Chinese": "世界"
 };
 
@@ -17,6 +18,7 @@ const helloInDifferentLanguages = {
     "French": "Bonjour",
     "German": "Hallo",
     "Dutch": "Hallo",
+    "Japanese": "こんにちは",
     "Chinese": "你好"
 };
 
