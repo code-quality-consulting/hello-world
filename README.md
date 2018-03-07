@@ -11,3 +11,6 @@
 * Communicates "여보세요 세계!" to a Korean-speaking user.
 * Communicates "你好世界" to a Chinese-speaking user.
 * Communicates "こんにちは世界!" to a Japanese-speaking user.
+* Communicates "Hello World!" to a Arabic-speaking user.
+* Communicates "Hello World!" to a Hebrew-speaking user.
+* Communicates "Hello World!" to a Swahili-speaking user.
