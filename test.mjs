@@ -33,6 +33,7 @@ assert.equal(greet.japanese(), "こんにちは 世界!");
 assert.equal(greet.dutch(), "Hallo wereld!");
 assert.equal(greet.korean(), "여보세요 세계!");
 assert.equal(greet.chinese(), "你好世界");
+assert.equal(greet.swahili(), "Jambo dunia!");
 
 
 console.log("success");
