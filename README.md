@@ -8,3 +8,4 @@
 * Communicates "Bonjour monde!" to a French-speaking user.
 * Communicates "Hallo Welt!" to a German-speaking user.
 * Communicates "Hallo wereld!" to a Dutch-speaking user.
+* Communicates "!שלום עולם" to a Hebrew-speaking user.
