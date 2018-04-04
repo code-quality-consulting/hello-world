@@ -4,6 +4,7 @@
 import assert from "assert";
 import {makeGreeter} from "./index.mjs";
 
+const rtl = "\u202b";
 const greet = {
     "english": makeGreeter("English"),
     "spanish": makeGreeter("Spanish"),
@@ -29,7 +30,7 @@ assert.equal(greet.french(), "Bonjour monde!");
 assert.equal(greet.german(), "Hallo Welt!");
 assert.equal(greet.dutch(), "Hallo wereld!");
 assert.equal(greet.korean(), "여보세요 세계!");
-assert.equal(greet.hebrew(), "!םלוע םולש");
+assert.equal(greet.hebrew(), rtl + "שלום עולם" + "!");
 console.log("success");
 
 /*
