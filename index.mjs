@@ -1,4 +1,5 @@
-const rtl = "\u202b";
+const rle = "\u202b";
+
 const worldInDifferentLanguages = {
     "English": "world",
     "Russian": "мир",
@@ -11,6 +12,7 @@ const worldInDifferentLanguages = {
     "Hebrew": "עולם",
     "Japanese": "世界",
     "Chinese": "世界",
+    "Arabic": "بالعالم",
     "Swahili": "dunia"
 };
 
@@ -26,17 +28,21 @@ const helloInDifferentLanguages = {
     "Hebrew": "שלום",
     "Japanese": "こんにちは",
     "Chinese": "你好",
+    "Arabic": "مرحبا",
     "Swahili": "Jambo"
 };
 
 export function makeGreeter(language) {
     if (language === "Hebrew") {
         return function (name = worldInDifferentLanguages[language]) {
-            return rtl + helloInDifferentLanguages[language] + " " + name + "!";
+            return rle + helloInDifferentLanguages[language] + " " + name + "!";
         };
     }
 
     return function (name = worldInDifferentLanguages[language]) {
+        if (language === "Arabic") {
+            return rle + helloInDifferentLanguages[language] + " " + name + "!";
+        }
         if (language === "Chinese") {
             return helloInDifferentLanguages[language] + name;
         }
