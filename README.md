@@ -13,4 +13,4 @@
 * Communicates "こんにちは世界!" to a Japanese-speaking user.
 * Communicates "مرحبا بالعالم" to a Arabic-speaking user.
 * Communicates "Hello World!" to a Hebrew-speaking user.
-* Communicates "Hello World!" to a Swahili-speaking user.
+* Communicates "Jambo dunia!" to a Swahili-speaking user.
