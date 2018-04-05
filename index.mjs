@@ -10,7 +10,8 @@ const worldInDifferentLanguages = {
     "Korean": "세계",
     "Hebrew": "עולם",
     "Japanese": "世界",
-    "Chinese": "世界"
+    "Chinese": "世界",
+    "Swahili": "dunia"
 };
 
 const helloInDifferentLanguages = {
@@ -24,7 +25,8 @@ const helloInDifferentLanguages = {
     "Korean": "여보세요",
     "Hebrew": "שלום",
     "Japanese": "こんにちは",
-    "Chinese": "你好"
+    "Chinese": "你好",
+    "Swahili": "Jambo"
 };
 
 export function makeGreeter(language) {
